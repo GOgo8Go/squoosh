@@ -244,7 +244,7 @@ export default class Intro extends Component<Props, State> {
             <img
               class={style.logo}
               src={logoWithText}
-              alt="Squoosh"
+              alt="Asquoosh"
               width="539"
               height="162"
             />
@@ -355,19 +355,13 @@ export default class Intro extends Component<Props, State> {
             <SlideOnScroll>
               <div class={style.infoContent}>
                 <div class={style.infoTextWrapper}>
-                  <h2 class={style.infoTitle}>Small</h2>
+                  <h2 class={style.infoTitle}> </h2>
                   <p class={style.infoCaption}>
-                    Smaller images mean faster load times. Squoosh can reduce
-                    file size and maintain high quality.
+                     
                   </p>
                 </div>
                 <div class={style.infoImgWrapper}>
-                  <img
-                    class={style.infoImg}
-                    src={smallSectionAsset}
-                    alt="silhouette of a large 1.4 megabyte image shrunk into a smaller 80 kilobyte image"
-                    width="536"
-                    height="522"
+                   
                   />
                 </div>
               </div>
@@ -380,21 +374,10 @@ export default class Intro extends Component<Props, State> {
             <SlideOnScroll>
               <div class={style.infoContent}>
                 <div class={style.infoTextWrapper}>
-                  <h2 class={style.infoTitle}>Simple</h2>
-                  <p class={style.infoCaption}>
-                    Open your image, inspect the differences, then save
-                    instantly. Feeling adventurous? Adjust the settings for even
-                    smaller files.
-                  </p>
+                   
                 </div>
                 <div class={style.infoImgWrapper}>
-                  <img
-                    class={style.infoImg}
-                    src={simpleSectionAsset}
-                    alt="grid of multiple shrunk images displaying various options"
-                    width="538"
-                    height="384"
-                  />
+                   
                 </div>
               </div>
             </SlideOnScroll>
@@ -406,20 +389,10 @@ export default class Intro extends Component<Props, State> {
             <SlideOnScroll>
               <div class={style.infoContent}>
                 <div class={style.infoTextWrapper}>
-                  <h2 class={style.infoTitle}>Secure</h2>
-                  <p class={style.infoCaption}>
-                    Worried about privacy? Images never leave your device since
-                    Squoosh does all the work locally.
-                  </p>
+                   
                 </div>
                 <div class={style.infoImgWrapper}>
-                  <img
-                    class={style.infoImg}
-                    src={secureSectionAsset}
-                    alt="silhouette of a cloud with a 'no' symbol on top"
-                    width="498"
-                    height="333"
-                  />
+                   
                 </div>
               </div>
             </SlideOnScroll>
@@ -436,19 +409,7 @@ export default class Intro extends Component<Props, State> {
             </svg>
             <div class={style.footerPadding}>
               <footer class={style.footerItems}>
-                <a
-                  class={style.footerLink}
-                  href="https://github.com/GoogleChromeLabs/squoosh/blob/dev/README.md#privacy"
-                >
-                  Privacy
-                </a>
-                <a
-                  class={style.footerLinkWithLogo}
-                  href="https://github.com/GoogleChromeLabs/squoosh"
-                >
-                  <img src={githubLogo} alt="" width="10" height="10" />
-                  Source on Github
-                </a>
+                 
               </footer>
             </div>
           </div>
