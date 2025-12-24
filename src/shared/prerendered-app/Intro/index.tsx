@@ -241,13 +241,7 @@ export default class Intro extends Component<Props, State> {
             />
           )}
           <h1 class={style.logoContainer}>
-            <img
-              class={style.logo}
-              src="Asquoosh"
-              alt="Asquoosh"
-              width="539"
-              height="162"
-            />
+             Asquoosh
           </h1>
           <div class={style.loadImg}>
             {showBlobSVG && (
