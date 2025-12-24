@@ -10,9 +10,9 @@ import deviceScreen from 'url:./imgs/demos/demo-device-screen.png';
 import largePhotoIcon from 'url:./imgs/demos/icon-demo-large-photo.jpg';
 import artworkIcon from 'url:./imgs/demos/icon-demo-artwork.jpg';
 import deviceScreenIcon from 'url:./imgs/demos/icon-demo-device-screen.jpg';
-import smallSectionAsset from 'url:./imgs/info-content/small.svg';
-import simpleSectionAsset from 'url:./imgs/info-content/simple.svg';
-import secureSectionAsset from 'url:./imgs/info-content/secure.svg';
+import smallSectionAsset from ' ';
+import simpleSectionAsset from ' ';
+import secureSectionAsset from ' ';
 import logoIcon from 'url:./imgs/demos/icon-demo-logo.png';
 import logoWithText from 'data-url-text:./imgs/logo-with-text.svg';
 import * as style from './style.css';
@@ -442,7 +442,7 @@ export default class Intro extends Component<Props, State> {
                   class={style.footerLinkWithLogo}
                   href=" "
                 >
-                  <img src={githubLogo} alt="" width="10" height="10" />
+                   
                  
                 </a>
               </footer>
