@@ -357,11 +357,16 @@ export default class Intro extends Component<Props, State> {
                 <div class={style.infoTextWrapper}>
                   <h2 class={style.infoTitle}> </h2>
                   <p class={style.infoCaption}>
-                     
+                    
                   </p>
                 </div>
                 <div class={style.infoImgWrapper}>
-                   
+                  <img
+                    class={style.infoImg}
+                    src={smallSectionAsset}
+                    alt=" "
+                    width=" "
+                    height=" "
                   />
                 </div>
               </div>
@@ -374,10 +379,19 @@ export default class Intro extends Component<Props, State> {
             <SlideOnScroll>
               <div class={style.infoContent}>
                 <div class={style.infoTextWrapper}>
-                   
+                  <h2 class={style.infoTitle}> </h2>
+                  <p class={style.infoCaption}>
+                    
+                  </p>
                 </div>
                 <div class={style.infoImgWrapper}>
-                   
+                  <img
+                    class={style.infoImg}
+                    src={simpleSectionAsset}
+                    alt=" "
+                    width=" "
+                    height=" "
+                  />
                 </div>
               </div>
             </SlideOnScroll>
@@ -389,10 +403,19 @@ export default class Intro extends Component<Props, State> {
             <SlideOnScroll>
               <div class={style.infoContent}>
                 <div class={style.infoTextWrapper}>
-                   
+                  <h2 class={style.infoTitle}> </h2>
+                  <p class={style.infoCaption}>
+                    
+                  </p>
                 </div>
                 <div class={style.infoImgWrapper}>
-                   
+                  <img
+                    class={style.infoImg}
+                    src={secureSectionAsset}
+                    alt=" "
+                    width=" "
+                    height=" "
+                  />
                 </div>
               </div>
             </SlideOnScroll>
@@ -409,7 +432,19 @@ export default class Intro extends Component<Props, State> {
             </svg>
             <div class={style.footerPadding}>
               <footer class={style.footerItems}>
+                <a
+                  class={style.footerLink}
+                  href=" "
+                >
+                  
+                </a>
+                <a
+                  class={style.footerLinkWithLogo}
+                  href=" "
+                >
+                  <img src={githubLogo} alt="" width="10" height="10" />
                  
+                </a>
               </footer>
             </div>
           </div>
