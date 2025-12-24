@@ -365,8 +365,8 @@ export default class Intro extends Component<Props, State> {
                     class={style.infoImg}
                     src={smallSectionAsset}
                     alt=" "
-                    width=" "
-                    height=" "
+                    width="536"
+                    height="522"
                   />
                 </div>
               </div>
@@ -381,7 +381,7 @@ export default class Intro extends Component<Props, State> {
                 <div class={style.infoTextWrapper}>
                   <h2 class={style.infoTitle}> </h2>
                   <p class={style.infoCaption}>
-                    
+                  
                   </p>
                 </div>
                 <div class={style.infoImgWrapper}>
@@ -389,8 +389,8 @@ export default class Intro extends Component<Props, State> {
                     class={style.infoImg}
                     src={simpleSectionAsset}
                     alt=" "
-                    width=" "
-                    height=" "
+                    width="538"
+                    height="384"
                   />
                 </div>
               </div>
@@ -413,8 +413,8 @@ export default class Intro extends Component<Props, State> {
                     class={style.infoImg}
                     src={secureSectionAsset}
                     alt=" "
-                    width=" "
-                    height=" "
+                    width="498"
+                    height="333"
                   />
                 </div>
               </div>
@@ -434,16 +434,16 @@ export default class Intro extends Component<Props, State> {
               <footer class={style.footerItems}>
                 <a
                   class={style.footerLink}
-                  href=" "
+                   
                 >
                   
                 </a>
                 <a
                   class={style.footerLinkWithLogo}
-                  href=" "
+                   
                 >
-                   <img src={ } alt="" width="10" height="10" />
-                 
+                  <img src={githubLogo} alt="" width="10" height="10" />
+                   
                 </a>
               </footer>
             </div>
