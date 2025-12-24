@@ -241,7 +241,7 @@ export default class Intro extends Component<Props, State> {
             />
           )}
           <h1 class={style.logoContainer}>
-             Asquoosh
+             在线压缩和转换图片，本地完成处理，隐私安全，拖拽或粘贴图片开始
           </h1>
           <div class={style.loadImg}>
             {showBlobSVG && (
