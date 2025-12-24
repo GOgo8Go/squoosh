@@ -10,9 +10,9 @@ import deviceScreen from 'url:./imgs/demos/demo-device-screen.png';
 import largePhotoIcon from 'url:./imgs/demos/icon-demo-large-photo.jpg';
 import artworkIcon from 'url:./imgs/demos/icon-demo-artwork.jpg';
 import deviceScreenIcon from 'url:./imgs/demos/icon-demo-device-screen.jpg';
-import smallSectionAsset from ' ';
-import simpleSectionAsset from ' ';
-import secureSectionAsset from ' ';
+import smallSectionAsset from 'url:./imgs/info-content/small.svg';
+import simpleSectionAsset from 'url:./imgs/info-content/simple.svg';
+import secureSectionAsset from 'url:./imgs/info-content/secure.svg';
 import logoIcon from 'url:./imgs/demos/icon-demo-logo.png';
 import logoWithText from 'data-url-text:./imgs/logo-with-text.svg';
 import * as style from './style.css';
@@ -355,16 +355,17 @@ export default class Intro extends Component<Props, State> {
             <SlideOnScroll>
               <div class={style.infoContent}>
                 <div class={style.infoTextWrapper}>
-                  <h2 class={style.infoTitle}> </h2>
+                  <h2 class={style.infoTitle}>Small</h2>
                   <p class={style.infoCaption}>
-                    
+                    Smaller images mean faster load times. Squoosh can reduce
+                    file size and maintain high quality.
                   </p>
                 </div>
                 <div class={style.infoImgWrapper}>
                   <img
                     class={style.infoImg}
                     src={smallSectionAsset}
-                    alt=" "
+                    alt="silhouette of a large 1.4 megabyte image shrunk into a smaller 80 kilobyte image"
                     width="536"
                     height="522"
                   />
@@ -379,16 +380,18 @@ export default class Intro extends Component<Props, State> {
             <SlideOnScroll>
               <div class={style.infoContent}>
                 <div class={style.infoTextWrapper}>
-                  <h2 class={style.infoTitle}> </h2>
+                  <h2 class={style.infoTitle}>Simple</h2>
                   <p class={style.infoCaption}>
-                  
+                    Open your image, inspect the differences, then save
+                    instantly. Feeling adventurous? Adjust the settings for even
+                    smaller files.
                   </p>
                 </div>
                 <div class={style.infoImgWrapper}>
                   <img
                     class={style.infoImg}
                     src={simpleSectionAsset}
-                    alt=" "
+                    alt="grid of multiple shrunk images displaying various options"
                     width="538"
                     height="384"
                   />
@@ -403,16 +406,17 @@ export default class Intro extends Component<Props, State> {
             <SlideOnScroll>
               <div class={style.infoContent}>
                 <div class={style.infoTextWrapper}>
-                  <h2 class={style.infoTitle}> </h2>
+                  <h2 class={style.infoTitle}>Secure</h2>
                   <p class={style.infoCaption}>
-                    
+                    Worried about privacy? Images never leave your device since
+                    Squoosh does all the work locally.
                   </p>
                 </div>
                 <div class={style.infoImgWrapper}>
                   <img
                     class={style.infoImg}
                     src={secureSectionAsset}
-                    alt=" "
+                    alt="silhouette of a cloud with a 'no' symbol on top"
                     width="498"
                     height="333"
                   />
@@ -436,11 +440,11 @@ export default class Intro extends Component<Props, State> {
                   class={style.footerLink}
                    
                 >
-                  
+                   
                 </a>
                 <a
                   class={style.footerLinkWithLogo}
-                   
+                  
                 >
                   <img src={githubLogo} alt="" width="10" height="10" />
                    
