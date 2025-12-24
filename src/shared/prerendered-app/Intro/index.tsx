@@ -442,7 +442,7 @@ export default class Intro extends Component<Props, State> {
                   class={style.footerLinkWithLogo}
                   href=" "
                 >
-                   
+                   <img src={ } alt="" width="10" height="10" />
                  
                 </a>
               </footer>
